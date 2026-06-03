@@ -7,8 +7,13 @@
 ## What I studied today
 
 ### Morning
-- [Topic 1]: [2-3 sentences explaining what it is and what you understood]
-- [Topic 2]: [your understanding in your own words — not copy-pasted]
+- Verify and install all tools: Verified all the tools installations and working and explored the software interfaces.
+- SV intro: SystemVerilog
+an extension of verilog designed to improve the verification of DUT(Design Under Test) or DUV(Design under Verification)
+- Data Types : SV data types like reg(register-stores value), Wire(To make connections), logic (can be both reg or  wire,can be procedural or continuous assignment),Packed Arrays(Single bit data type arrays,contiguous),unpacked arrays(can be of any data type,may or may not be contiguous).
+- X and Z in simulation - X means not sure or a dont' care as we study in digital logic, in simulation when its not defined what the output is, it is assigned as X or when there is a conflict of values in a connection(making it both 0 and 1).
+Z means high impedence or a floating point if any input is left open or unconnected then it is assigned as Z (and the respective floating point value is given to it).
+- HDLbits - Solved five basics section problem to understand the data types and wire connections.
 
 ### Afternoon
 - [What you built/coded]

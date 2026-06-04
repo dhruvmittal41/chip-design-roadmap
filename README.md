@@ -1,6 +1,6 @@
 # Chip Design Roadmap — 60 Days
 
-> B.Tech EE, [ZHCET,AMU] | Started: 01/06/2026
+> B.Tech EE, [ZHCET,AMU] | Started: 03/06/2026
 > Goal: Gain Comprehensive knowledge on the subject.
 
 ## About this repo

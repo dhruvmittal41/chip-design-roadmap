@@ -10,7 +10,7 @@ module TFF_tb();
     initial begin
         clk = 0;
         T = 0;
-        #2 T = 1;
+        #2 T = 1;   
         #2 T = 0;   
         #4 $finish;
     end

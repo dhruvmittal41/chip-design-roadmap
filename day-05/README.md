@@ -1,22 +1,26 @@
 # Day 2 — Always Blocks - the most critical SV Concept 
 
-**Phase:** SV Foundations | **Date:** 04/06/2026 | **Hours spent:** 8 hrs
+**Phase:** SV Foundations | **Date:** 07/06/2026 | **Hours spent:** 8 hrs
 
 ---
 
 ## What I studied today
 
 ### Morning
-- **asic-world.com** : Read about the SV procedural blocks - always_comb,always_ff,always_latch.
-- **Examples on paper** : trace few examples to understand the different usecases of blocking and non-blocking assignments in the system verilog.
-- **HDLbits** - Solved complete Latches and flip flops section problems to understand the sequential logic designing
+- **Verify and install all tools** : Verified all the tools installations and working and explored the software interfaces.
+- **SV intro** : SystemVerilog
+an extension of verilog designed to improve the verification of DUT(Design Under Test) or DUV(Design under Verification)
+- **Data Types** : SV data types like reg(register-stores value), Wire(To make connections), logic (can be both reg or  wire,can be procedural or continuous assignment),Packed Arrays(Single bit data type arrays,contiguous),unpacked arrays(can be of any data type,may or may not be contiguous).
+- **X and Z in simulation** - X means not sure or a dont' care as we study in digital logic, in simulation when its not defined what the output is, it is assigned as X or when there is a conflict of values in a connection(making it both 0 and 1).
+Z means high impedence or a floating point if any input is left open or unconnected then it is assigned as Z (and the respective floating point value is given to it).
+- **HDLbits** - Solved five basics section problem to understand the data types and wire connections.
 
 ### Afternoon
-- Coded D_FF,T_FF,Shift_Register,Up/Down Counter, 8:1 priority encoder and parameterized N-bit adder in system verilog and wrote their testbenches to verify the functionalities.
+- Coded AND,OR,XOR,4:1 MUX , 8:1 priority encoder and parameterized N-bit adder in system verilog and wrote their testbenches to verify the functionalities.
 - A common problem that i encountered was figuring out the data types while designing and while writing the testbenches.
 
 ### Evening
-- **W&H Chapter 1, pp. 30–60**: I learned about the levels of abstraction what is the history of the chips how we got from a few transistors in a big area to billions of transistor in a smaller area and what and how the transistor works at the micro level.
+- **W&H Chapter 1, pp. 1–30**: I learned about the levels of abstraction what is the history of the chips how we got from a few transistors in a big area to billions of transistor in a smaller area and what and how the transistor works at the micro level.
 - **NANDLAND.com** - I read the introduction section of FPGAS (Field Programmable Gate Arrays),what are they,why are they used and how are they used, I explored these questions. 
 
 ---
@@ -56,17 +60,17 @@ endmodule
 
 ## Simulation result / synthesis result
 
-### D - Flip Flop
-![Basic Gates](src/D_FF.png)
+### Basic Gates
+![Basic Gates](src/BasicGates_Wave.png)
 
-### T - Flip Flop
-![Basic Gates](src/T_FF.png)
+### Multiplexor
+![Basic Gates](src/MUX_Wave.png)
 
-### 8 bit Shift Register 
-![Basic Gates](src/Shift_Register.png)
+### Priority Encoder
+![Basic Gates](src/Encoder_Wave.png)
 
-### 4-bit synchronous up/down counter
-![Basic Gates](src/Counter.png)
+### Parameterized Adder
+![Basic Gates](src/Adder_wave.png)
 
 ---
 

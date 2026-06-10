@@ -18,7 +18,7 @@ always_ff @(posedge clk) begin
         data_out <= 8'b0;
 
     end
-
+            
     else if (load) begin
 
         data_out <= data_in;

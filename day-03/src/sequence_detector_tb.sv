@@ -2,7 +2,7 @@
 
 module tb_sequence_detector;
 
-    logic clk;
+    logic clk;  
     logic rst;
     logic data_in;
     logic detected;
